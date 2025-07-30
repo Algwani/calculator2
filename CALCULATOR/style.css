@@ -1,0 +1,75 @@
+.container{
+    max-width: 400px;
+    margin: 10vw auto 0 auto;
+    border-radius: 20px;
+    background-color: rgb(1, 1, 37);
+    border: 2px solid blue;
+
+}
+
+#display{
+    height: 40px;
+    background-color: rgb(1, 1, 37);
+    border-radius: 20px;
+    color: white;
+    line-height: 10px;
+    padding: 16px 8px;
+    text-align: right;
+    margin: 2px;
+    border: 2px solid blue;
+
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div{
+    border-bottom: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-radius: 20px;
+}
+
+.button {
+    border: 0.5px solid blue;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+} 
+
+.button:hover{
+    background-color: blue;
+    transition: 0.3s ease-in-out;
+
+}
+
+#equal{
+    grid-column-start:2;
+    grid-column-end: 5;
+    background-color: blue;
+    color: black;
+}
+
+#equal:hover{
+    background-color: navy;
+    color: white;
+}
+#special{
+    background-color: rgb(4, 27, 70);
+    color: white;
+}
+#special:hover {
+    background-color: orangered;
+}
+#cancle {
+    background-color: red;
+    
+}
+#cancle:hover {
+    background-color: white;
+    color: red;
+}
